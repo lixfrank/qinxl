@@ -1,0 +1,493 @@
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+@@@@@@ Utils class settings : private @@@@@@
+Analysis environment variable: ANALYPATH
+nFitObserv: 8
+ProbThreshold: 0
+scrambleFraction: 0
+
+@@@@@@ Utils class settings : public  @@@@@@
+NcoeffThetaL: 6
+NcoeffThetaK: 4
+NcoeffPhi: 4
+RIGHTflavorTAG: 0
+B0ToKstMuMu: 1
+B0ToJPsiKst: 3
+B0ToPsi2SKst: 5
+nFitParam: 16
+nConfigParam: 4
+
+[Utils::ReadAllBins]	All bins from file : /afs/cern.ch/user/l/llinwei/work2/qinxl/final/B0KstMuMu2/python/ParameterFile.txt
+Bin 0	1
+Bin 1	2
+Bin 2	4.3
+Bin 3	6
+Bin 4	8.68
+Bin 5	10.09
+Bin 6	12.86
+Bin 7	14.18
+Bin 8	16
+Bin 9	19
+
+[ExtractYield::main]	@@@ Input variables from command line @@@
+- input/outputFile.root = ../../../data/2017/skims/2017GEN_MC_LMNR.root
+- specBin = 0
+- FitType = 206
+- SampleType = 0
+- ParameterFILE = /afs/cern.ch/user/l/llinwei/work2/qinxl/final/B0KstMuMu2/python/ParameterFile.txt
+
+[ExtractYield::main]	@@@ Internal settings @@@
+NBINS = 20
+MULTYIELD = 1
+NCOEFFPOLYBKG = 5
+
+PARAMETERFILEIN = /python/ParameterFile.txt
+PARAMETERFILEOUT = ParameterFileOut.txt
+
+[Utils::ReadGenericParam]	Generic parameters from file : /afs/cern.ch/user/l/llinwei/work2/qinxl/final/B0KstMuMu2/python/ParameterFile.txt
+Generic parameter #0 from config file : 0	
+Generic parameter #1 from config file : 0.28
+Generic parameter #2 from config file : 0.28
+Generic parameter #3 from config file : 0
+Generic parameter #4 from config file : trueGoodtag
+Generic parameter #5 from config file : 3.0
+Generic parameter #6 from config file : 2.5
+Generic parameter #7 from config file : 3.0
+Generic parameter #8 from config file : 3.0
+Generic parameter #9 from config file : 0.16
+Generic parameter #10 from config file : 0.06
+Generic parameter #11 from config file : 0.06
+Generic parameter #12 from config file : 0.03
+Generic parameter #13 from config file : 3
+
+Read set-0 of fit-parameter starting values
+Fit parameter-0 value: 7.1039e-01   -5.08e-04   5.08e-04
+Fit parameter-1 value: 1.6460e-01   -3.73e-03    3.73e-03
+Fit parameter-2 value: 6.6443e-02    -3.26e-01   3.18e-01
+Fit parameter-3 value: 1.1891e-04  -3.26e-01     3.18e-01
+Fit parameter-4 value: 4.9662e-03  -3.26e-01     3.18e-01
+Fit parameter-5 value: 9.9681e-02    -4.39e-01   4.57e-01
+Fit parameter-6 value: 0.0
+Fit parameter-7 value: 0.0
+Fit parameter-8 value: -0.156132    -0.00926457  0.00926457
+Fit parameter-9 value: 0.0
+Fit parameter-10 value: 0.0
+Fit parameter-11 value: 0.0
+Fit parameter-12 value: 0.0
+Fit parameter-13 value: 0.0 
+Fit parameter-14 value: 0.0
+Fit parameter-15 value: 0.0   -0.001   0.001
+Config. parameter-0 value: 0
+Config. parameter-1 value: 0
+Config. parameter-2 value: 1
+Config. parameter-3 value: 2
+
+Read set-1 of fit-parameter starting values
+Fit parameter-0 value: 7.9894e-01   -3.28e-04    3.28e-04
+Fit parameter-1 value: 1.6460e-01   -3.73e-03    3.73e-03
+Fit parameter-2 value: 6.6443e-02    -3.26e-01   3.18e-01
+Fit parameter-3 value: 1.1891e-04  -3.26e-01     3.18e-01
+Fit parameter-4 value: 4.9662e-03  -3.26e-01     3.18e-01
+Fit parameter-5 value: 9.9681e-02    -4.39e-01   4.57e-01
+Fit parameter-6 value: 0.0
+Fit parameter-7 value: 0.0
+Fit parameter-8 value: -0.0575613  -0.00627465   0.00627465
+Fit parameter-9 value: 0.0
+Fit parameter-10 value: 0.0
+Fit parameter-11 value: 0.0
+Fit parameter-12 value: 0.0
+Fit parameter-13 value: 0.0
+Fit parameter-14 value: 0.0
+Fit parameter-15 value: 0.0   -0.001   0.001
+Config. parameter-0 value: 2
+Config. parameter-1 value: 0
+Config. parameter-2 value: 1
+Config. parameter-3 value: 2
+
+Read set-2 of fit-parameter starting values
+Fit parameter-0 value: 7.2811e-01
+Fit parameter-1 value: -1.5176e-01   -3.73e-03    3.73e-03
+Fit parameter-2 value: 2.0776e-01    -3.26e-01   3.18e-01
+Fit parameter-3 value: 1.5764e-03  -3.26e-01     3.18e-01
+Fit parameter-4 value: -4.4874e-01  -3.26e-01     3.18e-01
+Fit parameter-5 value: -7.2221e-01    -4.39e-01   4.57e-01
+Fit parameter-6 value: 2.2435e-04     -2.14e-02    2.14e-02
+Fit parameter-7 value: 5.7378e-05    -4.26e-02   4.26e-02
+Fit parameter-8 value: 0.0774136    -0.00739384   0.00739384
+Fit parameter-9 value: 0.0
+Fit parameter-10 value: 0.0
+Fit parameter-11 value: 0.0
+Fit parameter-12 value: 0.0
+Fit parameter-13 value: 0.0
+Fit parameter-14 value: 0.0
+Fit parameter-15 value: 0.0   -0.001   0.001
+Config. parameter-0 value: 2
+Config. parameter-1 value: 0
+Config. parameter-2 value: 1
+Config. parameter-3 value: 2
+
+Read set-3 of fit-parameter starting values
+Fit parameter-0 value: 6.1464e-01
+Fit parameter-1 value: 1.6460e-01   -3.73e-03    3.73e-03
+Fit parameter-2 value: 6.6443e-02    -3.26e-01   3.18e-01
+Fit parameter-3 value: 1.1891e-04  -3.26e-01     3.18e-01
+Fit parameter-4 value: 4.9662e-03  -3.26e-01     3.18e-01
+Fit parameter-5 value: 9.9681e-02    -4.39e-01   4.57e-01
+Fit parameter-6 value: 0.0
+Fit parameter-7 value: 0.0
+Fit parameter-8 value: 0.244321    -0.00561649   0.00561649
+Fit parameter-9 value: 0.0
+Fit parameter-10 value: 0.0
+Fit parameter-11 value: 0.0
+Fit parameter-12 value: 0.0
+Fit parameter-13 value: 0.0
+Fit parameter-14 value: 0.0
+Fit parameter-15 value: 0.0   -0.001   0.001
+Config. parameter-0 value: 2
+Config. parameter-1 value: 0
+Config. parameter-2 value: 1
+Config. parameter-3 value: 2
+
+Read set-4 of fit-parameter starting values
+Fit parameter-0 value: 0.449   -0.02   0.02
+Fit parameter-1 value: 1.6460e-01   -3.73e-03    3.73e-03
+Fit parameter-2 value: 6.6443e-02    -3.26e-01   3.18e-01
+Fit parameter-3 value: 1.1891e-04  -3.26e-01     3.18e-01
+Fit parameter-4 value: 4.9662e-03  -3.26e-01     3.18e-01
+Fit parameter-5 value: 9.9681e-02    -4.39e-01   4.57e-01
+Fit parameter-6 value: 0.0
+Fit parameter-7 value: 0.0
+Fit parameter-8 value: 0.0
+Fit parameter-9 value: 0.0
+Fit parameter-10 value: 0.0
+Fit parameter-11 value: 0.0
+Fit parameter-12 value: 0.0
+Fit parameter-13 value: 0.0
+Fit parameter-14 value: 0.0
+Fit parameter-15 value: 0.0   -0.001   0.001
+Config. parameter-0 value: 2
+Config. parameter-1 value: 0
+Config. parameter-2 value: 1
+Config. parameter-3 value: 2
+
+Read set-5 of fit-parameter starting values
+Fit parameter-0 value: 0.5    -0.00014   0.00014
+Fit parameter-1 value: 1.6460e-01   -3.73e-03    3.73e-03
+Fit parameter-2 value: 6.6443e-02    -3.26e-01   3.18e-01
+Fit parameter-3 value: 1.1891e-04  -3.26e-01     3.18e-01
+Fit parameter-4 value: 4.9662e-03  -3.26e-01     3.18e-01
+Fit parameter-5 value: 9.9681e-02    -4.39e-01   4.57e-01
+Fit parameter-6 value: 0.0
+Fit parameter-7 value: 0.0
+Fit parameter-8 value: 0.386453   -0.00532208    0.00532208
+Fit parameter-9 value: 0.0
+Fit parameter-10 value: 0.0
+Fit parameter-11 value: 0.153625   -7.22101e-05   7.22101e-05
+Fit parameter-12 value: 0.0
+Fit parameter-13 value: 0.0
+Fit parameter-14 value: 0.0
+Fit parameter-15 value: 0.0    -0.001   0.001
+Config. parameter-0 value: 2
+Config. parameter-1 value: 0
+Config. parameter-2 value: 1
+Config. parameter-3 value: 2
+
+Read set-6 of fit-parameter starting values
+Fit parameter-0 value: 3.6234e-01   -0.00836698   0.00851299
+Fit parameter-1 value: 1.6460e-01   -3.73e-03    3.73e-03
+Fit parameter-2 value: 6.6443e-02    -3.26e-01   3.18e-01
+Fit parameter-3 value: 1.1891e-04  -3.26e-01     3.18e-01
+Fit parameter-4 value: 4.9662e-03  -3.26e-01     3.18e-01
+Fit parameter-5 value: 9.9681e-02    -4.39e-01   4.57e-01
+Fit parameter-6 value: 0.0
+Fit parameter-7 value: 0.0
+Fit parameter-8 value: 0.0
+Fit parameter-9 value: 0.0
+Fit parameter-10 value: 0.0
+Fit parameter-11 value: 0.0
+Fit parameter-12 value: 0.0
+Fit parameter-13 value: 0.0
+Fit parameter-14 value: 0.0
+Fit parameter-15 value: 0.0   -0.001   0.001
+Config. parameter-0 value: 2
+Config. parameter-1 value: 0
+Config. parameter-2 value: 1
+Config. parameter-3 value: 2
+
+Read set-7 of fit-parameter starting values
+Fit parameter-0 value: 0.362296 +/- 0.00523276
+Fit parameter-1 value: 1.6460e-01   -3.73e-03    3.73e-03
+Fit parameter-2 value: 6.6443e-02    -3.26e-01   3.18e-01
+Fit parameter-3 value: 1.1891e-04  -3.26e-01     3.18e-01
+Fit parameter-4 value: 4.9662e-03  -3.26e-01     3.18e-01
+Fit parameter-5 value: 9.9681e-02    -4.39e-01   4.57e-01
+Fit parameter-6 value: 0.0
+Fit parameter-7 value: 0.0
+Fit parameter-8 value: 0.416895    -0.0069868    0.0069868
+Fit parameter-9 value: -0.0609316 +/- 0.00531657 
+Fit parameter-10 value: 0.00905008 +/- 0.00591384 
+Fit parameter-11 value: 0.0133488 +/- 0.00624978 
+Fit parameter-12 value: 0.00154933 +/- 0.00652066 
+Fit parameter-13 value: -0.00869468 +/- 0.00612619 
+Fit parameter-14 value: 0.00741071 +/- 0.00534336
+Fit parameter-15 value: 0.0   -0.001   0.001 
+Config. parameter-0 value: 2
+Config. parameter-1 value: 0
+Config. parameter-2 value: 1
+Config. parameter-3 value: 2
+
+Read set-8 of fit-parameter starting values
+Fit parameter-0 value: 3.3799e-01   -0.0550949   0.054095
+Fit parameter-1 value: 1.6460e-01   -3.73e-03    3.73e-03
+Fit parameter-2 value: 6.6443e-02    -3.26e-01   3.18e-01
+Fit parameter-3 value: 1.1891e-04  -3.26e-01     3.18e-01
+Fit parameter-4 value: 4.9662e-03  -3.26e-01     3.18e-01
+Fit parameter-5 value: 9.9681e-02    -4.39e-01   4.57e-01
+Fit parameter-6 value: 0.0
+Fit parameter-7 value: 0.0
+Fit parameter-8 value: 0.371382     -0.00731652    0.00731652
+Fit parameter-9 value: 0.0
+Fit parameter-10 value: 0.0
+Fit parameter-11 value: 0.0
+Fit parameter-12 value: 0.0
+Fit parameter-13 value: 0.0
+Fit parameter-14 value: 0.0
+Fit parameter-15 value: 0.0   -0.001   0.001
+Config. parameter-0 value: 2
+Config. parameter-1 value: 0
+Config. parameter-2 value: 1
+Config. parameter-3 value: 2
+Use MINOS: 0	 (0 = false; 1 = true)
+Control fit workflow: trueGoodtag
+
+[Utils::ReadLumi]	@@@ Recorded luminosity: 20.5 fb-1 @@@
+
+[ExtractYield::main]	@@@ I recognize that this is a Monte Carlo file @@@
+
+[ExtractYield::main]	@@@ Making datasets @@@
+
+[ExtractYield::MakeDatasets]	@@@ NTuple with all data @@@
+DataStore SingleCandNTuple (SingleCandNTuple)
+  Contains 100000 entries
+  Observables: 
+    1)     B0mass = 5.27958  L(4.99958 - 5.55958) // [GeV] "#font[12]{m}(#font[122]{K}#kern[0.1]{#lower[0.4]{^{#font[122]{+}}}}#kern[-0.3]{#pi}#kern[-0.3]{#lower[0.6]{^{#font[122]{-}}}}#mu#kern[-0.9]{#lower[0.6]{^{#font[122]{+}}}}#kern[-0.1]{#mu}#kern[-1.3]{#lower[0.6]{^{#font[122]{-}}}})"
+    2)   mumuMass = 1.30125  L(0 - 6) // [GeV] "#mu#kern[-0.9]{#lower[0.6]{^{#font[122]{+}}}}#kern[-0.1]{#mu}#kern[-1.3]{#lower[0.6]{^{#font[122]{-}}}} inv. mass"
+    3)  mumuMassE = 0.25  L(0 - 0.5) // [GeV] "#mu#kern[-0.9]{#lower[0.6]{^{#font[122]{+}}}}#kern[-0.1]{#mu}#kern[-1.3]{#lower[0.6]{^{#font[122]{-}}}} inv. mass error"
+    4)        ctK = -0.558716  L(-1 - 1)  "cos#theta_{K}"
+    5)        ctL = -0.00151854  L(-1 - 1)  "cos#theta_{L}"
+    6)        phi = -2.13543  L(-3.14159 - 3.14159)  "#phi"
+    7)      tagB0 = 0.5  L(-0.1 - 1.1)  "Tagged Events"
+    8)  genSignal = 1.5  L(0 - 3)  "gen Signal"
+[ExtractYield::MakeDatasets]	@@@ NTuple without J/psi and psi(2S) regions @@@
+DataStore SingleCandNTuple_RejectPsi (SingleCandNTuple_RejectPsi)
+  Contains 0 entries
+  Observables: 
+    1)     B0mass = 5.27958  L(4.99958 - 5.55958) // [GeV] "#font[12]{m}(#font[122]{K}#kern[0.1]{#lower[0.4]{^{#font[122]{+}}}}#kern[-0.3]{#pi}#kern[-0.3]{#lower[0.6]{^{#font[122]{-}}}}#mu#kern[-0.9]{#lower[0.6]{^{#font[122]{+}}}}#kern[-0.1]{#mu}#kern[-1.3]{#lower[0.6]{^{#font[122]{-}}}})"
+    2)   mumuMass = 3  L(0 - 6) // [GeV] "#mu#kern[-0.9]{#lower[0.6]{^{#font[122]{+}}}}#kern[-0.1]{#mu}#kern[-1.3]{#lower[0.6]{^{#font[122]{-}}}} inv. mass"
+    3)  mumuMassE = 0.25  L(0 - 0.5) // [GeV] "#mu#kern[-0.9]{#lower[0.6]{^{#font[122]{+}}}}#kern[-0.1]{#mu}#kern[-1.3]{#lower[0.6]{^{#font[122]{-}}}} inv. mass error"
+    4)        ctK = 0  L(-1 - 1)  "cos#theta_{K}"
+    5)        ctL = 0  L(-1 - 1)  "cos#theta_{L}"
+    6)        phi = 0  L(-3.14159 - 3.14159)  "#phi"
+    7)      tagB0 = 0.5  L(-0.1 - 1.1)  "Tagged Events"
+    8)  genSignal = 1.5  L(0 - 3)  "gen Signal"
+
+[ExtractYield::main]	@@@ Time Reading tree is
+1.29s @@@
+
+[ExtractYield::main]	@@@ Now fit invariant mass, cos(theta_K) and cos(theta_l) per mumu q^2 bins @@@
+
+[ExtractYield::IterativeAnglesFitq2Bins]	Cut string: (mumuMass*mumuMass) > 1 && (mumuMass*mumuMass) <= 2
+[ExtractYield::IterativeAnglesFitq2Bins]	Number of events : 3492
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+[#1] INFO:Eval -- RooAbsTestStatistic::initMPMode: started 10 remote server process.
+ **********
+ **    1 **SET PRINT           1
+ **********
+ **********
+ **    2 **SET NOGRAD
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 Fl           5.00000e-01  1.00000e-01    0.00000e+00  1.00000e+00
+     2 P1           0.00000e+00  2.00000e-01   -1.00000e+00  1.00000e+00
+     3 P2           0.00000e+00  2.00000e-01   -1.00000e+00  1.00000e+00
+     4 P3           0.00000e+00  2.00000e-01   -1.00000e+00  1.00000e+00
+     5 P4p          0.00000e+00  2.82843e-01   -1.41421e+00  1.41421e+00
+     6 P5p          0.00000e+00  2.82843e-01   -1.41421e+00  1.41421e+00
+     7 P6p          0.00000e+00  2.82843e-01   -1.41421e+00  1.41421e+00
+     8 P8p          0.00000e+00  2.82843e-01   -1.41421e+00  1.41421e+00
+ **********
+ **    3 **SET ERR         0.5
+ **********
+ **********
+ **    4 **SET PRINT           1
+ **********
+ **********
+ **    5 **SET STR           1
+ **********
+ NOW USING STRATEGY  1: TRY TO BALANCE SPEED AGAINST RELIABILITY
+ **********
+ **    6 **MIGRAD        4000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=10540.3 FROM MIGRAD    STATUS=INITIATE       32 CALLS          33 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Fl           5.00000e-01   1.00000e-01   2.01358e-01  -1.15723e+03
+   2  P1           0.00000e+00   2.00000e-01   2.01358e-01   6.18391e+00
+   3  P2           0.00000e+00   2.00000e-01   2.01358e-01   2.95454e+02
+   4  P3           0.00000e+00   2.00000e-01   2.01358e-01  -2.13939e+01
+   5  P4p          0.00000e+00   2.82843e-01   2.01358e-01   3.88233e+01
+   6  P5p          0.00000e+00   2.82843e-01   2.01358e-01  -3.04711e+02
+   7  P6p          0.00000e+00   2.82843e-01   2.01358e-01   3.37901e+01
+   8  P8p          0.00000e+00   2.82843e-01   2.01358e-01  -1.07781e+01
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=10026.6 FROM MIGRAD    STATUS=CONVERGED     214 CALLS         215 TOTAL
+                     EDM=9.12166e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Fl           8.39595e-01   9.19355e-03   1.70768e-03   2.65897e-04
+   2  P1          -6.20126e-02   9.97056e-02   6.83978e-03   9.85978e-03
+   3  P2          -4.17210e-01   3.39933e-02   2.54949e-03   1.31072e-03
+   4  P3           1.64812e-02   5.05959e-02   3.44494e-03  -1.36638e-04
+   5  P4p         -2.38306e-01   1.19189e-01   5.82993e-03   4.95020e-03
+   6  P5p          3.86633e-01   4.46308e-02   2.21382e-03  -1.34897e-02
+   7  P6p         -2.45072e-02   4.55827e-02   2.18871e-03  -5.78874e-03
+   8  P8p          1.25568e-01   1.21481e-01   5.89235e-03   3.24882e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  8    ERR DEF=0.5
+  8.454e-05  6.674e-06 -3.763e-05 -5.945e-07 -4.183e-06  4.536e-05  2.640e-06  4.646e-05 
+  6.674e-06  9.974e-03  5.700e-05  4.482e-04  4.454e-05  5.066e-04 -8.918e-06  1.142e-04 
+ -3.763e-05  5.700e-05  1.156e-03  1.053e-05  4.310e-04 -2.617e-06 -3.474e-06 -2.469e-04 
+ -5.945e-07  4.482e-04  1.053e-05  2.562e-03 -2.506e-04 -1.518e-04  2.814e-04  1.812e-05 
+ -4.183e-06  4.454e-05  4.310e-04 -2.506e-04  1.424e-02 -6.737e-04 -2.234e-06  1.370e-04 
+  4.536e-05  5.066e-04 -2.617e-06 -1.518e-04 -6.737e-04  1.993e-03  1.070e-05 -1.226e-06 
+  2.640e-06 -8.918e-06 -3.474e-06  2.814e-04 -2.234e-06  1.070e-05  2.079e-03  8.034e-04 
+  4.646e-05  1.142e-04 -2.469e-04  1.812e-05  1.370e-04 -1.226e-06  8.034e-04  1.479e-02 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6      7      8
+        1  0.16866   1.000  0.007 -0.120 -0.001 -0.004  0.111  0.006  0.042
+        2  0.15279   0.007  1.000  0.017  0.089  0.004  0.114 -0.002  0.009
+        3  0.17259  -0.120  0.017  1.000  0.006  0.106 -0.002 -0.002 -0.060
+        4  0.17903  -0.001  0.089  0.006  1.000 -0.041 -0.067  0.122  0.003
+        5  0.17628  -0.004  0.004  0.106 -0.041  1.000 -0.126 -0.000  0.009
+        6  0.22051   0.111  0.114 -0.002 -0.067 -0.126  1.000  0.005 -0.000
+        7  0.19040   0.006 -0.002 -0.002  0.122 -0.000  0.005  1.000  0.145
+        8  0.16202   0.042  0.009 -0.060  0.003  0.009 -0.000  0.145  1.000
+[#1] INFO:Minization -- Command timer: Real time 0:00:00, CP time 0.110
+[#1] INFO:Minization -- Session timer: Real time 0:00:00, CP time 0.110
+ **********
+ **    7 **SET ERR         0.5
+ **********
+ **********
+ **    8 **SET PRINT           1
+ **********
+ **********
+ **    9 **HESSE        4000
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=10026.6 FROM HESSE     STATUS=OK             61 CALLS         276 TOTAL
+                     EDM=9.1269e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  Fl           8.39595e-01   9.19414e-03   6.83070e-05   7.46659e-01
+   2  P1          -6.20126e-02   9.96971e-02   1.36796e-03  -6.20524e-02
+   3  P2          -4.17210e-01   3.40025e-02   1.01979e-04  -4.30373e-01
+   4  P3           1.64812e-02   5.05851e-02   1.37798e-04   1.64820e-02
+   5  P4p         -2.38306e-01   1.19160e-01   2.33197e-04  -1.69316e-01
+   6  P5p          3.86633e-01   4.46166e-02   4.42765e-04   2.76916e-01
+   7  P6p         -2.45072e-02   4.55809e-02   4.37742e-04  -1.73301e-02
+   8  P8p          1.25568e-01   1.21499e-01   1.17847e-03   8.89070e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  8    ERR DEF=0.5
+  8.455e-05  5.771e-06 -3.812e-05 -1.098e-06 -4.960e-06  4.510e-05  2.184e-06  4.589e-05 
+  5.771e-06  9.973e-03  4.972e-05  4.466e-04  3.665e-05  5.062e-04 -6.990e-06  1.233e-04 
+ -3.812e-05  4.972e-05  1.157e-03  6.513e-06  4.284e-04 -2.203e-06 -4.164e-06 -2.587e-04 
+ -1.098e-06  4.466e-04  6.513e-06  2.561e-03 -2.495e-04 -1.490e-04  2.807e-04  2.083e-05 
+ -4.960e-06  3.665e-05  4.284e-04 -2.495e-04  1.423e-02 -6.686e-04 -1.939e-06  1.338e-04 
+  4.510e-05  5.062e-04 -2.203e-06 -1.490e-04 -6.686e-04  1.991e-03  1.142e-05  6.987e-07 
+  2.184e-06 -6.990e-06 -4.164e-06  2.807e-04 -1.939e-06  1.142e-05  2.078e-03  8.036e-04 
+  4.589e-05  1.233e-04 -2.587e-04  2.083e-05  1.338e-04  6.987e-07  8.036e-04  1.480e-02 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6      7      8
+        1  0.16903   1.000  0.006 -0.122 -0.002 -0.005  0.110  0.005  0.041
+        2  0.15222   0.006  1.000  0.015  0.088  0.003  0.114 -0.002  0.010
+        3  0.17385  -0.122  0.015  1.000  0.004  0.106 -0.001 -0.003 -0.063
+        4  0.17782  -0.002  0.088  0.004  1.000 -0.041 -0.066  0.122  0.003
+        5  0.17492  -0.005  0.003  0.106 -0.041  1.000 -0.126 -0.000  0.009
+        6  0.21914   0.110  0.114 -0.001 -0.066 -0.126  1.000  0.006  0.000
+        7  0.19020   0.005 -0.002 -0.003  0.122 -0.000  0.006  1.000  0.145
+        8  0.16292   0.041  0.010 -0.063  0.003  0.009  0.000  0.145  1.000
+[#1] INFO:Minization -- Command timer: Real time 0:00:00, CP time 0.010
+[#1] INFO:Minization -- Session timer: Real time 0:00:00, CP time 0.120, 2 slices
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+[ExtractYield::Make3AnglesFit]	 @@@ status = 0
+[ExtractYield::Make3AnglesFit]	 @@@ Time for fitting 	0.22s	 @@@
+test      : Real Time =   0.39 seconds Cpu Time =   0.21 seconds
+
+  RooFitResult: minimized FCN value: 10026.6, estimated distance to minimum: 9.1269e-06
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter  InitialValue    FinalValue +/-  Error     GblCorr.
+  --------------------  ------------  --------------------------  --------
+                    Fl    5.0000e-01    8.3960e-01 +/-  9.19e-03  <none>
+                    P1    0.0000e+00   -6.2013e-02 +/-  9.97e-02  <none>
+                    P2    0.0000e+00   -4.1721e-01 +/-  3.40e-02  <none>
+                    P3    0.0000e+00    1.6481e-02 +/-  5.06e-02  <none>
+                   P4p    0.0000e+00   -2.3831e-01 +/-  1.19e-01  <none>
+                   P5p    0.0000e+00    3.8663e-01 +/-  4.46e-02  <none>
+                   P6p    0.0000e+00   -2.4507e-02 +/-  4.56e-02  <none>
+                   P8p    0.0000e+00    1.2557e-01 +/-  1.21e-01  <none>
+
+status from fitresult = 0
+[#1] INFO:Plotting -- RooAbsReal::plotOn(TotalPDF) plot on ctL integrates over variables (ctK,phi)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(TotalPDF_Int[ctK,phi]_Norm[ctK,ctL,phi]) using numeric integrator RooAdaptiveIntegratorND to calculate Int(ctK,phi)
+status from fitresult = 0
+[#0] ERROR:InputArguments -- RooPlot::nameOf(frame_ctL_4a6b2b0) index 3 out of range
+[#1] INFO:Plotting -- RooAbsReal::plotOn(TotalPDF) plot on ctK integrates over variables (ctL,phi)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(TotalPDF_Int[ctL,phi]_Norm[ctK,ctL,phi]) using numeric integrator RooAdaptiveIntegratorND to calculate Int(ctL,phi)
+[#0] ERROR:InputArguments -- RooPlot::nameOf(frame_ctK_4c1fd70) index 3 out of range
+[#0] ERROR:InputArguments -- RooPlot::nameOf(frame_ctK_4c1fd70) index 4 out of range
+[#0] ERROR:InputArguments -- RooPlot::nameOf(frame_ctK_4c1fd70) index 5 out of range
+[#0] ERROR:InputArguments -- RooPlot::nameOf(frame_ctK_4c1fd70) index 6 out of range
+[#0] ERROR:InputArguments -- RooPlot::nameOf(frame_ctK_4c1fd70) index 7 out of range
+[#1] INFO:Plotting -- RooAbsReal::plotOn(TotalPDF) plot on phi integrates over variables (ctL,ctK)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(TotalPDF_Int[ctK,ctL]_Norm[ctK,ctL,phi]) using numeric integrator RooAdaptiveIntegratorND to calculate Int(ctK,ctL)
+[#0] ERROR:InputArguments -- RooPlot::nameOf(frame_phi_2a432f0) index 3 out of range
+[#0] ERROR:InputArguments -- RooPlot::nameOf(frame_phi_2a432f0) index 4 out of range
+[#0] ERROR:InputArguments -- RooPlot::nameOf(frame_phi_2a432f0) index 5 out of range
+[#0] ERROR:InputArguments -- RooPlot::nameOf(frame_phi_2a432f0) index 6 out of range
+[#0] ERROR:InputArguments -- RooPlot::nameOf(frame_phi_2a432f0) index 7 out of range
+[#0] ERROR:InputArguments -- RooPlot::nameOf(frame_phi_2a432f0) index 8 out of range
+[#0] ERROR:InputArguments -- RooPlot::nameOf(frame_phi_2a432f0) index 9 out of range
+[#0] ERROR:InputArguments -- RooPlot::nameOf(frame_phi_2a432f0) index 10 out of range
+[#0] ERROR:InputArguments -- RooPlot::nameOf(frame_phi_2a432f0) index 11 out of range
+[ExtractYield::Make3AnglesFit]	 @@@ Time for plotting 	0.4s	 @@@
+status from fitresult = 0
+
+[ExtractYield::Iterative3AnglesFitq2Bins]	@@@ Fit converged ! @@@
+[ExtractYield::PrintFitResults]	 Print Fitting Results
+ # P1 +/- err
+-0.0620126 +/- 0.0996971 (0.0996971/-0.0996971)
+ # P2 +/- err
+-0.41721 +/- 0.0340025 (0.0340025/-0.0340025)
+ # P3 +/- err
+0.0164812 +/- 0.0505851 (0.0505851/-0.0505851)
+ # P4p +/- err
+-0.238306 +/- 0.11916 (0.11916/-0.11916)
+ # P5p +/- err
+0.386633 +/- 0.0446166 (0.0446166/-0.0446166)
+ # P6p +/- err
+-0.0245072 +/- 0.0455809 (0.0455809/-0.0455809)
+ # P8p +/- err
+0.125568 +/- 0.121499 (0.121499/-0.121499)
